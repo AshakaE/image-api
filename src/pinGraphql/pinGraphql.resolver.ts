@@ -1,5 +1,4 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
-
 import { PinGraphql } from './models/pinGraphql';
 import { PinGraphqlService } from './pinGraphql.service';
 import { GraphQLUpload, FileUpload } from 'graphql-upload';
